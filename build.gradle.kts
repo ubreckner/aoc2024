@@ -13,3 +13,11 @@ tasks {
         gradleVersion = "8.11.1"
     }
 }
+dependencies {
+}
+repositories {
+    mavenCentral()
+}
+kotlin {
+    jvmToolchain(21)
+}
