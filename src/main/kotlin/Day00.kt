@@ -14,12 +14,9 @@ fun main() {
 }
 
 class Day00(input: List<String>) {
-    private val inputData = mutableListOf<List<Int>>()
+    private val data = input
 
     init {
-        for (line in input) {
-            inputData.add(line.split(" ").map { it.toInt() })
-        }
     }
 
     fun part1(): Int {
